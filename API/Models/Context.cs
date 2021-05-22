@@ -12,7 +12,7 @@ namespace API.Models
         public DbSet<Produto> Produtos { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(connectionString: );
+           // optionsBuilder.UseSqlServer(connectionString: @"colocar aqui seu endereço de conexao com db");
         }
     }
 }
